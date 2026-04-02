@@ -1,15 +1,15 @@
-# WhatsApp Chatbot Backend Simulation using Spring Boot
+# WhatsApp Chatbot Backend (Spring Boot)
 
 This is a small backend project that simulates a WhatsApp chatbot webhook using Spring Boot.
 It accepts a JSON request, reads the `message` field, and returns a simple reply.
 
 ## Features
 
-- REST endpoint for webhook: 'POST /webhook'
+- REST endpoint: POST /webhook
 - Simple chatbot rules:
-  - 'Hi' -> 'Hello'
-  - 'Bye' -> 'Goodbye'
-  - anything else -> 'I didn't understand that'
+  - Hi -> Hello
+  - Bye -> Goodbye
+  - anything else -> I didn't understand that
 - Logs every incoming message using SLF4J (so you can see requests in the console)
 
 ## Tech Stack used
@@ -111,4 +111,12 @@ You’ll see lines in the console like:
 - Add a `GET /health` endpoint for checking server status
 - Add more chatbot rules (more commands, keyword matching)
 - Add basic tests for the chatbot service and controller
+
+## Deployment
+
+This project is deployed on Render using Docker.
+
+Live API:
+https://whatsapp-chatbot-2-ncue.onrender.com/webhook
+
 
