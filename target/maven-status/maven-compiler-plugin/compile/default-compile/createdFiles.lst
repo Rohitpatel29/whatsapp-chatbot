@@ -1,0 +1,5 @@
+com\example\whatsappchatbot\service\ChatbotService.class
+com\example\whatsappchatbot\WhatsappChatbotApplication.class
+com\example\whatsappchatbot\controller\WebhookController.class
+com\example\whatsappchatbot\model\WebhookResponse.class
+com\example\whatsappchatbot\model\WebhookRequest.class
